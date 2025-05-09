@@ -2,9 +2,6 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar"
-import type { ReactNode } from "react";
-import { Suspense } from "react";
-import { AppProgressBar as ProgressBar } from "next-nprogress-bar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
